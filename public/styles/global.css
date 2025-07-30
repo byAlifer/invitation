@@ -1,0 +1,75 @@
+@import url(patterns.css);
+@import url(reset.css);
+@import url(variables.css);
+
+body {
+    background-color: var(--dark-background);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+}
+
+@media (max-width: 450px) {
+    main {
+       border: 2px solid var(--light-border);
+       border-radius: 0.5rem; 
+       width: 80vw;
+       height: 90vh;
+       margin: auto;
+       position: relative;
+       display: flex;
+    }
+
+    .subcontainer {
+        width: 85%;
+        height: 30rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .headline {
+        font-size: 4rem;
+    }
+
+    .date {
+        font-size: 1rem;
+    }
+
+    .invite {
+        font-size: 3rem;
+        color: var(--text-color2);
+    }
+
+    .day {
+        font-size: 2rem;
+    }
+
+    /* Icons */
+    .default-icons {
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        z-index: 999;
+    }
+
+    .floral {
+        top: -21px;
+        left: -4px;
+    }
+
+    .flowers {
+        bottom: -2px;
+        right: -17px;
+    }
+
+    /* Other */
+    strong {
+        font-size: 3rem;
+        font-family: 'Amatic SC';
+        font-weight: bold;
+        color: #847471;
+    }
+
+}

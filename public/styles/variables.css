@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+:root {
+    --dark-background:#2A2A23;
+    --light-border: #DCC1BE;
+    --text-color1: #81816B;
+    --text-color2: #BBBB9D; 
+    --strong: #D9D9B5;
+}
